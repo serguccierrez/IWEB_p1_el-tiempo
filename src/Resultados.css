@@ -1,0 +1,19 @@
+/* Contenedor principal */
+.resultados-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#timezone,
+#country,
+#city {
+  font-size: 1.4em;
+  color: #5a6e8c;
+  font-weight: bold;
+}
+
+#infoMessage {
+  font-size: 1.2em;
+  color: #5a6e8c;
+  font-style: italic;
+}

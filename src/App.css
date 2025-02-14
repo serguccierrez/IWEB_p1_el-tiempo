@@ -1,0 +1,34 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#titulo {
+  margin: 1.5rem;
+  font-size: 2rem;
+}
+
+/*Estilo para el formulario  completo*/
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#buscar {
+  margin: 1rem;
+}
