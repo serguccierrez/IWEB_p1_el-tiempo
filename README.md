@@ -8,24 +8,22 @@
 ## 📌 Descripción | Description
 
 🟢 **ES:**  
-_IWEB_p1_el-tiempo_ es una aplicación web para consultar el estado del tiempo en diferentes ubicaciones. Permite búsquedas de ciudades por **nombre** o **coordenadas geográficas** (latitud y longitud), mostrando información meteorológica actualizada y previsiones.
+_IWEB_p1_el-tiempo_ es una aplicación web para consultar el estado del tiempo en diferentes ubicaciones. Permite búsquedas de ciudades por **coordenadas geográficas** (latitud y longitud), mostrando información meteorológica actualizada y previsiones.
 
 🔵 **EN:**  
-_IWEB_p1_el-tiempo_ is a web application to check the weather conditions for different locations. It allows searching for cities by **name** or **geographical coordinates** (latitude and longitude), displaying real-time weather data and forecasts.
+_IWEB_p1_el-tiempo_ is a web application to check the weather conditions for different locations. It allows searching for cities by **geographical coordinates** (latitude and longitude), displaying real-time weather data and forecasts.
 
 ---
 
 ## 🚀 Características | Features
 
 ✅ **ES:**  
-✔️ Búsqueda de ciudades por **nombre**.  
 ✔️ Búsqueda de ciudades por **coordenadas geográficas** (latitud y longitud).  
 ✔️ Consulta del **clima actual** y su evolución.  
 ✔️ **Previsión meteorológica** para los próximos días.  
 ✔️ **Interfaz responsive**, moderna y fácil de usar.  
 
 ✅ **EN:**  
-✔️ Search for cities by **name**.  
 ✔️ Search for cities by **geographical coordinates** (latitude and longitude).  
 ✔️ Get **real-time weather conditions**.  
 ✔️ **Weather forecast** for upcoming days.  
