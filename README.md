@@ -32,7 +32,8 @@ _IWEB_p1_el-tiempo_ is a web application to check the weather conditions for dif
 ---
 
 ## 🛠️ Tecnologías | Technologies Used
-
+- 🟡 **JavaScript (ES6+)** → Lenguaje principal del proyecto, usado para la lógica y las peticiones a la API.  
+- 📄 **HTML5** → Estructura de la aplicación y renderizado en el navegador.  
 - ⚛ **[React](https://reactjs.org/)** → Biblioteca de UI de JavaScript | JavaScript UI library.  
 - ⚡ **[Vite](https://vitejs.dev/)** → Entorno de desarrollo rápido | Fast development environment.  
 - 🌍 **API de Clima** → Datos meteorológicos en tiempo real | Real-time weather data.  
