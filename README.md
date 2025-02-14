@@ -15,6 +15,23 @@ _IWEB_p1_el-tiempo_ is a web application to check the weather conditions for dif
 
 ---
 
+## 📸 Capturas de pantalla | Screenshots
+
+🟢 **ES:** Aquí tienes una vista previa de la aplicación en acción.  
+🔵 **EN:** Here’s a preview of the application in action.  
+
+### ❌ Error al introducir coordenadas incorrectas | Error when entering incorrect coordinates
+![Error API](./miscapturas/Api-BadRequest.png)  
+_🔴 La API devuelve un error cuando las coordenadas son inválidas._  
+_🔵 The API returns an error when the coordinates are invalid._
+
+### ✅ Búsqueda exitosa con datos del clima | Successful search with weather data
+![API OK](./miscapturas/API-ok.png)  
+_🌍 Resultados correctos con información meteorológica detallada._  
+_🌤 Correct results with detailed weather information._
+
+---
+
 ## 🚀 Características | Features
 
 ✅ **ES:**  
