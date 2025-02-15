@@ -21,12 +21,12 @@ _IWEB_p1_el-tiempo_ is a web application to check the weather conditions for dif
 🔵 **EN:** Here’s a preview of the application in action.  
 
 ### ❌ Error al introducir coordenadas incorrectas | Error when entering incorrect coordinates
-![Error API](./miscapturas/Api-BadRequest.png)  
+![Error API](./public/Api-BadRequest.png)  
 _🔴 La API devuelve un error cuando las coordenadas son inválidas._  
 _🔵 The API returns an error when the coordinates are invalid._
 
 ### ✅ Búsqueda exitosa con datos del clima | Successful search with weather data
-![API OK](./miscapturas/API-ok.png)  
+![API OK](./public/API-ok.png)  
 _🌍 Resultados correctos con información meteorológica detallada._  
 _🌤 Correct results with detailed weather information._
 
@@ -67,8 +67,35 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 git clone https://github.com/serguccierrez/IWEB_p1_el-tiempo.git
 cd IWEB_p1_el-tiempo
 npm install
+```
+
+### 🔑 Configuración del Token de la API | API Token Configuration  
+Después de instalar las dependencias, es necesario configurar la **clave de la API** en el archivo `config.js`.  
+
+1. Abre el archivo `config.js` en la carpeta `src`.
+2. Localiza la línea donde se define `api_key` y reemplaza `"<INTRODUCIR API_KEY DE OPENWEATHERMAP>"` con tu clave de la API del clima:
+
+```javascript
+const CONFIG = {
+  server_url: "http://api.weatherapi.com/v1/forecast.json",
+  api_key: "TU_CLAVE_API_AQUÍ", // Reemplaza esto con tu API key
+  num_items_query: 9,
+  num_items_show: 8,
+  default_lat: 40.416775,
+  default_lon: -3.703790,
+  use_server: true,
+  force_error: false  
+}
+
+export default CONFIG;
+```
+
+3. Guarda los cambios y ejecuta el proyecto.
+
+```bash
 npm run dev
 ```
+
 Abre tu navegador en `http://localhost:3000`.
 
 🔵 **EN:**  
@@ -78,8 +105,35 @@ Follow these steps to install and run the project:
 git clone https://github.com/serguccierrez/IWEB_p1_el-tiempo.git
 cd IWEB_p1_el-tiempo
 npm install
+```
+
+### 🔑 API Token Configuration  
+After installing dependencies, you need to set up the **API key** in the `config.js` file.
+
+1. Open the `config.js` file in the `src` folder.
+2. Locate the `api_key` line and replace `"<INTRODUCIR API_KEY DE OPENWEATHERMAP>"` with your weather API key:
+
+```javascript
+const CONFIG = {
+  server_url: "http://api.weatherapi.com/v1/forecast.json",
+  api_key: "YOUR_API_KEY_HERE", // Replace this with your API key
+  num_items_query: 9,
+  num_items_show: 8,
+  default_lat: 40.416775,
+  default_lon: -3.703790,
+  use_server: true,
+  force_error: false  
+}
+
+export default CONFIG;
+```
+
+3. Save the changes and start the project.
+
+```bash
 npm run dev
 ```
+
 Open your browser at `http://localhost:3000`.
 
 ---
@@ -94,6 +148,7 @@ IWEB_p1_el-tiempo/
 │   ├── assets/     # Recursos gráficos y estilos | Assets and styles
 │   ├── App.jsx     # Componente principal | Main component
 │   ├── main.jsx    # Punto de entrada | Entry point
+│   ├── config.js   # Archivo de configuración de la API | API configuration file
 ├── package.json    # Dependencias | Dependencies
 ├── README.md       # Documentación | Documentation
 ```
